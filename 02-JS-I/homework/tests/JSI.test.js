@@ -278,7 +278,7 @@ describe('deEuroAdolar(euro)', function() {
   });
 });
 
-describe('esVocal(letra)', function() {
+xdescribe('esVocal(letra)', function() {
   it('Deberia devolver el string "Dato incorrecto", si el valor ingresado tiene más de una letra', function() {
     expect(esVocal("la")).toBe("Dato incorrecto");
     expect(esVocal("pero")).toBe("Dato incorrecto");
